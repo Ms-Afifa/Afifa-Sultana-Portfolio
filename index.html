@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+           <li><a href="#Web-Designs">Web Designs</a></li>
+          <li><a href="#Mob-Designs">Mob Designs</a></li>
+          <li><a href="#Full-Landing-Page-Designs">Full Landing Page Designs</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Portfolio</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Web-Designs" onclick="toggleMenu()">Web Designs</a></li>
+          <li><a href="#Mob-Designs" onclick="toggleMenu()">Mob Designs</a></li>
+          <li><a href="#Full-Landing-Page-Designs" onclick="toggleMenu()">Full Landing Page Designs</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets\profile cover\Mobile UI-UX-rafiki (2).png" alt="Afifa profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Afifa Sultana</h1>
+        <p class="section__text__p2">UI/UX Designer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/Afifa Resume.pdf')">Download CV</button>
+   
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn" class="icon" onclick="location.href='https://linkedin.com/'" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+
+      <div class="text-container">
+        <p style="text-align: center;">
+          Hi, I'm Afifa Sultana – UI/UX Designer<br />
+          I’m a passionate UI/UX designer with a background in computer science and a strong eye for detail. I specialize in creating intuitive, user-friendly digital experiences that balance aesthetics with functionality. <br />
+          With a solid foundation in wireframing, prototyping, user research, and interaction design, I approach every project with a focus on problem-solving and user needs.
+        </p>
+      </div>
+
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>Frontend Development intern at Civil Aviation Authority (CAA)</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>Bachelors of Science in Computer Science</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Web-Designs">
+      <h1 class="title">Web Designs</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/Landing pages/MacBook Pro 14_ - 1 (1).png" alt="Project 1" class="project-img" />
+            </div>
+            <h2 class="project-title">Project One</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='project 1.html'">Explore</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/Landing pages/MacBook Pro 14_ - 1.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="project-title">Project Two</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='project 2.html'">Explore</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/Landing pages/MacBook Pro 16_ - 2.png" alt="Project 3" class="project-img" />
+            </div>
+            <h2 class="project-title">Project Three</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='project 3.html'">Explore</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/Landing pages/Frame 1.png" alt="Project 4" class="project-img" />
+            </div>
+            <h2 class="project-title">Project Four</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='project 4.html'">Explore</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Mob-Designs">
+      <h1 class="title">Mob Designs</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/mob cover/Welcome Page .png" alt="Project 1" class="project-img" />
+            </div>
+            <h2 class="project-title">Project One</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='web project 1.html'">Explore</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/mob cover/Welcome Screen .png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="project-title">Project Two</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='web project 2.html'">Explore</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/mob cover/on boarding screen 1.png" alt="Project 3" class="project-img" />
+            </div>
+            <h2 class="project-title">Project Three</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='web project 3.html'">Explore</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Full-Landing-Page-Designs">
+      <h1 class="title">Full Landing Page Designs</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/web cover/MacBoo.png" alt="Project 1" class="project-img" />
+            </div>
+            <h2 class="project-title">Project One</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='res project 1.html'">Explore</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets\web cover\silvea.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="project-title">Project Two</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='res project 2.html'">Explore</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/web cover/Frame 1.png" alt="Project 3" class="project-img" />
+            </div>
+            <h2 class="project-title">Project Three</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='res project 3.html'">Explore</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#Web-Designs">Web Designs</a></li>
+            <li><a href="#Mob-Designs">Mob Designs</a></li>
+           <li><a href="#Full-Landing-Page-Designs">Full Landing Page Designs</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
